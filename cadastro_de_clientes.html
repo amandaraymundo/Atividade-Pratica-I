@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticação</title>
+</head>
+<body>
+    <style>
+        div{
+            margin-top: 300px;
+            padding-top: 10px;
+            padding-bottom: 50px;
+            margin-left: 630px;
+            margin-right: 630px;
+            border-radius: 10px;
+            text-align: center;
+            background-color: rgb(180, 214, 214);
+            box-shadow: 3px 3px 3px;
+        }
+    </style>
+    <div>
+        <h1><p>Faça seu cadastro para acessar o sistema:</p></h1>
+            <form action="processamento_login.php" method="post">
+        
+            <label for="nome">Nome:</label>
+            <input type="text" name="text" placeholder="Insira seu nome..."><br><br>
+
+            <label for="nome">Telefone:</label>
+            <input type="text" name="text" placeholder="(47) 9999-9999"><br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" placeholder="Insira seu email..."><br><br>
+        
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" placeholder="Insira sua senha..."><br><br>
+        
+            <input type="submit" name="acao" value="CADASTRAR-SE">
+    </div>
+    </form>
+</body>
+</html>
